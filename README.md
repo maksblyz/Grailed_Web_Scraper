@@ -4,7 +4,7 @@ This project involves a Python-based web scraper designed to find clothing listi
 
 # Files:
 
-main_scraper.py: Contains the Python code for the web scraper using Selenium. This script handles the extraction of clothing listings based on predefined criteria.
+main_scraper.py: Contains the Python code for the web scraper using Selenium. This script handles the extraction of clothing listings based on predefined criteria and sends the data to a SQLite database.
 
 website_generator.py: Uses Pandas to process the data stored in SQLite and generates HTML tables that are structured to provide an easily navigable and clean user interface.
 
